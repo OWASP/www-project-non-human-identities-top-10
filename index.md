@@ -2,10 +2,10 @@
 
 layout: col-sidebar
 title: OWASP Non-Human Identities Top 10
-tags: example-tag
+tags: non-human-identity
 level: 2
 type: documentation
-pitch: A very brief, one-line description of your project
+pitch: The primary goal of the "OWASP Non-Human Identities Top 10" document is to provide assistance and education for organizations looking to secure the non-human identities in their organization's environment. The guide provides information about what the most prominent security risks are for such identities, the challenges involved, and how to overcome them.
 
 ---
 
@@ -17,7 +17,6 @@ Non-human identities are prevalent in usage for facilitating creation of applica
 2. Reaching out to prominent contributors of the identity security space (Ongoing)
 3. Mapping out top X risks
 4. Data collection on chosen risks
-
 * A public survey co-operated with Cloud Security Alliance (CSA)
 * Data assessment on real-life environments and platforms
 5. Aggregation of data and risk scoring
