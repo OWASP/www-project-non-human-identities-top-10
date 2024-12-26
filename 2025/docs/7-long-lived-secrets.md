@@ -1,4 +1,4 @@
-# NHI7:2024 Long-Lived Secrets
+# NHI7:2025 Long-Lived Secrets
 
 
 | Threat agents/Attack vectors                                                                                                                                                                    | Security Weakness                                                                                                                                                   | Impacts                                                                                                                                           |
