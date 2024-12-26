@@ -9,7 +9,11 @@ pitch: The primary goal of the "OWASP Non-Human Identities Top 10" document is t
 
 ---
 
-We're thrilled to introduce the [OWASP Non-Human Identities Top 10 for 2025]({{ site.baseurl }}/2025)!
+<div class="alert">
+    <p style="text-align:center">
+We're thrilled to introduce the <a href="./2025/">OWASP Non-Human Identities Top 10 for 2025</a>!
+    </p>
+</div>
 
 This comprehensive list highlights the most critical challenges in integrating Non-Human Identities (NHIs) into the development lifecycle, ranked based on exploitability, prevalence, detectability, and impact.
 
@@ -90,5 +94,5 @@ During application development and maintenance, developers or administrators may
 * Data assessment on real-life environments and platforms
 * Public data collection of zero-day vulnerabilities
 5. Aggregation of data and risk scoring ✓
-6. Final draft of the top 10 risks alongside above Documentation efforts (ongoing)
-7. Round-table together with contributors and leaders to construct roadmap towards project review and graduation to a Lab project
+6. Final draft of the top 10 risks alongside above Documentation efforts ✓
+7. Round-table together with contributors and leaders to construct roadmap towards project review and graduation to a Lab project. (ongoing)

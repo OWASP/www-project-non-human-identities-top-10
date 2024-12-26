@@ -20,3 +20,6 @@ Individuals that provided a significant contribution to the project:
 | Amir Benvenisti | - | [LinkedIn](https://www.linkedin.com/in/amir-benvenisti/) |
 | Dor Dali | Cyolo | [LinkedIn](https://www.linkedin.com/in/dordali/) |
 | Jack Schofield  | Snyk | [LinkedIn](https://www.linkedin.com/in/jackschofield85/) |
+| Tomer Yahalom  | Astrix Security | [LinkedIn](https://www.linkedin.com/in/tomer-yahalom-4622b0178/) |
+| Danielle Guetta  | Astrix Security | [LinkedIn](https://www.linkedin.com/in/danielle-guetta-94108310/) |
+| Bar Kaduri  | Orca Security | [LinkedIn](https://www.linkedin.com/in/bar-kaduri) |

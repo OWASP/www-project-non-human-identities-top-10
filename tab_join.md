@@ -20,6 +20,8 @@ Here are some ways you can help:
 - Star the [GitHub Project](https://github.com/OWASP/www-project-non-human-identities-top-10)
 - Contribute real world examples to categories in the Top 10 list
 - Add your Success Story - [tell us](mailto:roni.lichtman@owasp.org) and the world how you're using the Top 10 list
+- Feel free to also add a note for the next periodic "OWASP Non-Human Identities Top 10" meeting [here](https://docs.google.com/document/d/1lJE0AwgWc4PHUX5Y0-s3TPhi6Lh8_dqWgsiEeJopkKY/edit?pli=1#heading=h.29vste2an1z).
+
 
 Individuals and organizations that provide a significant contribution to the project will be listed on the acknowledgments page.
 

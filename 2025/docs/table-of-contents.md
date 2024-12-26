@@ -15,4 +15,3 @@
 * [NHI8:2025 Environment Isolation](8-environment-isolation.md)
 * [NHI9:2025 NHI Reuse](9-nhi-reuse.md)
 * [NHI10:2025 Human Use of NHI](10-human-use-of-nhi.md)
-* [Acknowledgments](acknowledgments.md)
