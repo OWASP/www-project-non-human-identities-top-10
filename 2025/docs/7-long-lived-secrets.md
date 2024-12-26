@@ -30,11 +30,12 @@ Long-lived Secrets refers to the use of sensitive NHIs such as API keys, tokens,
 
 
 ## References
-* MSFT SAS Token Breach (June 2023) - [link](https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers)
 * CircleCI Breach (January 2023) - [link](https://circleci.com/blog/jan-4-2023-incident-report/)
-* Cloudflare Breach (Febuary 2024) - [link](https://medium.com/@ronilichtman/how-cloudflare-got-hoktad-part-one-d5bb75dac3f0)
-* CircleCI Breach (January 2023) - [link](https://circleci.com/blog/jan-4-2023-incident-report/)
+* OWASP Cheat Sheet: Secrets Management - [link](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
+* Okta service account customer tickets breach (October 2023) - [link](https://sec.okta.com/harfiles)
 * Snowflake Breach (May 2024) - [link](https://medium.com/@ronilichtman/snowstorm-surrounding-the-recent-snowflake-hack-ab7e51e0c5be)
+* Azure Site Recovery privilege escalation (March 2024) - [link](https://www.netspi.com/blog/technical-blog/cloud-penetration-testing/elevating-privileges-with-azure-site-recovery-services/)
+* Internal Azure Container Registry writable via exposed secret (May 2024) - [link](https://www.aquasec.com/blog/github-repos-expose-azure-and-red-hat-secrets/)
 
 
 ## Data points
