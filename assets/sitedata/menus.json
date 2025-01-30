@@ -48,8 +48,9 @@
 					"separator": "true"
 				},
 				{
-					"title": "Google Summer of Code 2024",
-					"url": "https://owasp.org/gsoc/gsoc2024"
+					"title": "Google Summer of Code",
+					"url": "https://owasp.org/gsoc"
+
 				}
 			]
 		},
