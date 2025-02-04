@@ -8,7 +8,7 @@ Examples of NHIs include:
 
 - API keys used by microservices to access database applications.
 - Service accounts in backend systems connecting multiple subsystems.
-- Roles assocaited with automated services to access cloud resources.
+- Roles associated with automated services to access cloud resources.
 - Tokens used by bots to access protected application resources.
 
 As modern software becomes increasingly automated and interconnected, NHIs have become essential to application development.
