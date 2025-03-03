@@ -9,9 +9,25 @@
 					"url": "https://owasp.org/projects/"
 				},
 				{
+					"title": "Contribute to projects...",
+					"url": "https://nest.owasp.dev/projects/contribute"
+				},
+				{
 					"title": "OWASP Top Ten",
 					"url": "https://owasp.org/www-project-top-ten/",
 					"separator": "true"
+				},
+				{
+					"title": "OWASP Application Security Verification Standard",
+					"url": "https://owasp.org/www-project-application-security-verification-standard/"
+				},
+				{
+					"title": "OWASP Generative AI and LLM Top 10 Project",
+					"url": "https://genai.owasp.org/"
+				},
+				{
+					"title": "OWASP CycloneDX Secure Bill of Materials Project",
+					"url": "https://cyclonedx.org/"
 				},
 				{
 					"title": "Dependency Track",
@@ -120,19 +136,19 @@
 				{
 					"title": "OWASP SnowFROC 2025",
 					"url": "https://snowfroc.com/",
-					"opentab": "true"	
-				},
-				{
-					"title": "OWASP Boston Application Security Conference 2025",
-					"url": "https://basconf.org/",
-					"opentab": "true"				
+					"opentab": "true"										
 				},
 				{
 					"title": "OWASP AppSec Israel 2025",
 					"url": "https://appsecil.org/?utm_source=owasp-web&utm_medium=event-page&utm_campaign=none",
-					"opentab": "true"					
+					"opentab": "true"
 				},
 				{
+					"title": "OWASP Italy Day 2025",
+					"url": "https://owasp.org/www-chapter-italy/events/OWASPItalyDay2025-06-19",
+					"opentab": "true"				
+				},
+				{					
 					"title": "OWASP AppSec Days France 2025",
 					"url": "https://owaspappsecdays.fr/",
 					"opentab": "true"					
@@ -140,9 +156,9 @@
 				{					
 					"title": "OWASP LASCON 2025",
 					"url": "https://lascon.org/",
-					"opentab": "true"					
+					"opentab": "true"
 				},
-				{
+				{					
 					"title": "Upcoming Chapter Events",
 					"url": "https://owasp.org/chapters/events/"
 				},
@@ -166,20 +182,12 @@
 					"url": "https://owasp.org/awards/"
 				},
 				{
-					"title": "Careers",
-					"url": "https://owasp.org/careers/"
-				},
-				{
 					"title": "Committees",
 					"url": "https://owasp.org/committees/"
 				},
 				{
 					"title": "Contact Us",
 					"url": "https://owasp.org/contact/"
-				},
-				{
-					"title": "Contributed Content",
-					"url": "https://owasp.org/www-community"
 				},
 				{
 					"title": "Corporate Supporters",
@@ -192,10 +200,6 @@
 				{
 					"title": "Finance",
 					"url": "https://owasp.org/finance/"
-				},
-				{
-					"title": "Get OWASP Gear",
-					"url": "https://owasp.org/store"
 				},
 				{
 					"title": "Global Board",
@@ -224,14 +228,6 @@
 				{
 					"title": "Staff",
 					"url": "https://owasp.org/corporate/"
-				},
-				{
-					"title": "Staff Projects & Procedures",
-					"url": "https://owasp.org/www-staff/"
-				},
-				{
-					"title": "Subscribe to our Mailing List",
-					"url": "https://owasp.us17.list-manage.com/subscribe?u=a8012c9e2e384bf8ea8d7deb7&id=22be76c892"
 				},
 				{
 					"title": "Video",
