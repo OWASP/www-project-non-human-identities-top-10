@@ -7,3 +7,20 @@ The primary goal of the "OWASP Non-Human Identities Top 10" document is to provi
 We are always researching, updating the guide, and welcoming contributors to the project.
 
 Check out our contributing guidelines [here](CONTRIBUTING.md) and how to join the project [here](tab_join.md).
+
+### Local Development
+
+#### Quick Start with Docker
+
+You can work locally with a preview of the OWASP NHI Top 10 2025 documentation on Mkdocs by running:
+
+```bash
+docker-compose -f docker-compose-2025.yml up
+```
+
+Then visit `http://localhost:8000` in your browser.
+
+**Prerequisites**
+
+* [Docker](https://docs.docker.com/get-docker/)
+* [Docker Compose](https://docs.docker.com/compose/install/)
