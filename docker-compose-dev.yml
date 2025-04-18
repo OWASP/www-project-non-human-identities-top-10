@@ -1,0 +1,8 @@
+name: dev
+services:
+  web:
+    image: squidfunk/mkdocs-material:latest
+    volumes:
+      - ./2025:/docs
+    ports:
+      - 8000:8000
