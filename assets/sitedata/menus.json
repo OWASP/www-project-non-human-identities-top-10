@@ -10,7 +10,7 @@
 				},
 				{
 					"title": "Contribute to projects...",
-					"url": "https://nest.owasp.dev/projects/contribute"
+					"url": "https://nest.owasp.org/contribute"
 				},
 				{
 					"title": "OWASP Top Ten",
@@ -127,55 +127,30 @@
 			"title": "EVENTS",
 			"url": "/events/",
 			"items": [
-				{															
-				    "title": "OWASP Global AppSec EU 2025",
-					"url": "https://owasp.glueup.com/event/owasp-global-appsec-eu-2025-123983/",
-					"opentab": "true"
-				},
 				{
 					"title": "OWASP Global AppSec USA",
 					"url": "https://owasp.glueup.com/event/owasp-2025-global-appsec-usa-washington-dc-131624/",
-					"opentab": "true"				
+					"opentab": "true"						
 				},
-				{
-					"title": "OWASP AppSec Israel 2025",
-					"url": "https://appsecil.org/?utm_source=owasp-web&utm_medium=event-page&utm_campaign=none",
-					"opentab": "true"
-				},
-				{
-					"title": "OWASP Italy Day 2025",
-					"url": "https://owasp.org/www-chapter-italy/events/OWASPItalyDay2025-06-19",
-					"opentab": "true"
-				},
-				{					
-					"title": "OWASP AppSec Days New Zealand 2025",
-					"url": "https://appsec.org.nz/conference/",
-					"opentab": "true"	
-				},
-				{					
-					"title": "OWASP AppSec Days Singapore 2025",
-					"url": "http://singapore.appsecdays.org/",
-					"opentab": "true"
-				},
-				{					
-					"title": "OWASP AppSec Day Bangalore 2025",
-					"url": "https://owasp.org/",
-					"opentab": "true"				
-				},
-				{					
-					"title": "OWASP AppSec Days France 2025",
-					"url": "https://owaspappsecdays.fr/",
-					"opentab": "true"					
-				},
-				{					
-					"title": "OWASP LASCON 2025",
-					"url": "https://lascon.org/",
-					"opentab": "true"
-				},
-				{					
+				{									
 					"title": "OWASP AppSec Days Uruguay 2025",
 					"url": "https://owasp-uruguay.github.io/",
+					"opentab": "true"
+				},
+				{					
+					"title": "German OWASP Day 2025",
+					"url": "https://god.owasp.de/2025/index.html",
 					"opentab": "true"				
+				},
+				{					
+					"title": "OWASP BeNeLux 2025",
+					"url": "https://2025.owaspbenelux.eu/?utm_source=owasp-web&utm_medium=event-page&utm_campaign=none",
+					"opentab": "true"
+				},
+				{					
+					"title": "OWASP LASCON 2026",
+					"url": "https://lascon.org/",
+					"opentab": "true"					
 				},
 				{					
 					"title": "Upcoming Chapter Events",
@@ -201,6 +176,9 @@
 					"url": "https://owasp.org/awards/"
 				},
 				{
+					"title": "Careers",
+					"url": "https://owasp.org/careers/"
+				},{
 					"title": "Committees",
 					"url": "https://owasp.org/committees/"
 				},
@@ -267,3 +245,10 @@
 		}
 	]
 }
+
+
+
+
+
+
+
