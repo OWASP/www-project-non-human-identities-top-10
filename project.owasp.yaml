@@ -1,0 +1,31 @@
+audience:
+  - breaker
+  - builder
+  - defender
+community:
+  - name: non-human-identities-top-10
+    platform: slack
+    url: https://owasp.slack.com/archives/C088BQHS6ER
+    description: <https://owasp.org/www-project-non-human-identities-top-10/>
+leaders:
+  - name: Tal Skverer
+    email: tal.skverer@owasp.org
+    github: TalAstrix
+  - name: Roni Lichtman
+    email: roni.lichtman@owasp.org
+    github: ronilichtman
+level: 2
+name: OWASP Non-Human Identities Top 10
+pitch: The primary goal of the "OWASP Non-Human Identities Top 10" document is to provide assistance and education for organizations looking to secure the
+  non-human identities in their organization's environment. The guide provides information about what the most prominent security risks are for such identities,
+  the challenges involved, and how to overcome them.
+repositories:
+  - name: www-project-non-human-identities-top-10
+    url: https://github.com/OWASP/www-project-non-human-identities-top-10
+    description: OWASP Non-Human Identities Top 10
+tags:
+  - non-human-identity
+  - non-human-identities-top-10
+  - owasp-top-10
+type: documentation
+website: https://owasp.org/www-project-non-human-identities-top-10
