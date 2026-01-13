@@ -1,0 +1,30 @@
+/* assets/css/mxgraph-responsive.css
+   Minimal safety CSS for mxgraph so layout is protected before JS runs
+*/
+.mxgraph {
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
+  overflow: auto;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  touch-action: auto;
+  margin-top: 2.5rem !important;
+  margin-bottom: 2.5rem;
+}
+
+.mxgraph iframe,
+.mxgraph svg,
+.mxgraph > div > svg,
+.mxgraph > div > iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0 !important;
+  height: auto;
+  box-sizing: border-box;
+}

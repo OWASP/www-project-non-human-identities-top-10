@@ -6568,7 +6568,7 @@ a:hover { color: #2b88e2; text-decoration: underline; }
 a:active { color: #1761aa; }
 a:visited { color: #1d7bd7; text-decoration: none; }
 
-.header-wrapper, .event-header-wrapper, .main-wrapper, .alt-wrapper, .member-wrapper, .footer-wrapper, .alt-member-wrapper { max-width: 1500px; width: 100%; margin: 0 auto; padding: 0; }
+.header-wrapper, .event-header-wrapper, .main-wrapper, .alt-wrapper, .member-wrapper, .footer-wrapper, .alt-member-wrapper { max-width: 1500px; width: 100%; margin: 0 auto; padding: 0 0 0 15px; }
 .header-wrapper > *, .event-header-wrapper > *, .main-wrapper > *, .alt-wrapper > *, .member-wrapper > *, .footer-wrapper > *, .alt-member-wrapper > * { margin-left: 0; margin-right: 30px; }
 
 main img { max-width: 100%; }
@@ -6583,6 +6583,8 @@ main { grid-area: body; }
 
 footer { grid-area: footer; margin-left: 1em; }
 
+/* allow footer to center on mobile */
+@media screen and (max-width: 839px) { footer { margin-left: 0; } }
 .social { float: right; }
 .social a { color: black; text-decoration: none; }
 .social a:hover { color: #233e81; }
@@ -6597,8 +6599,11 @@ footer { grid-area: footer; margin-left: 1em; }
 
 .bigheader { font-size: 48pt; max-width: 768px; line-height: normal; }
 
+/* contain sizing on mobile */
+@media screen and (max-width: 839px) { .bigheader { font-size: 10vw; } }
 @media screen and (max-width: 1019px) { code { max-width: 88%; } }
 @media screen and (max-width: 1560px) { .main-wrapper, .alt-wrapper, .member-wrapper, .alt-member-wrapper, .footer-wrapper, .header-wrapper, .event-header-wrapper { padding-left: 1em; } }
+@media screen and (max-width: 839px) { .footer-wrapper { display: flex; flex-direction: column; align-items: center; margin-left: auto; margin-right: auto; padding: 0 1rem; /* small side padding so text doesn’t hug edges */ } }
 /*
 navigation related styling
 header, footer, mobile navigation menu
@@ -6664,6 +6669,7 @@ header { margin-bottom: 8px; background-color: #98afc7; box-shadow: 0 2px 3px #d
 
 .footer-wrapper .disclaimer { margin-top: 15px; font-size: 14px; }
 
+@media screen and (max-width: 839px) { .disclaimer { display: block; margin-left: auto; margin-right: auto; } }
 @media screen and (min-width: 1020px) { .alt-nav { position: absolute !important; left: -99999px !important; width: 0 !important; height: 0 !important; visibility: hidden !important; opacity: 0.0 !important; } }
 .alt-nav { display: flex; justify-content: center; align-items: center; }
 
@@ -6690,10 +6696,14 @@ header { margin-bottom: 8px; background-color: #98afc7; box-shadow: 0 2px 3px #d
 .panel { padding: 0 18px; background-color: #233e81; display: none; overflow: hidden; }
 
 @media screen and (max-width: 1019px) { .top-nav { position: absolute !important; left: -99999px !important; width: 0 !important; height: 0 !important; visibility: hidden !important; opacity: 0.0 !important; }
-  .header-wrapper { max-height: 75px; } }
+  .header-wrapper { max-height: 75px; }
+  .search-bar { width: 90%; max-width: 90%; }
+  .mini-search-bar { width: 70%; max-width: 70%; }
+  .mobile-menu .search-bar { margin-left: 5px; } }
 @media screen and (min-width: 840px) { .bot-nav ul > li:nth-child(-n+5) { position: absolute !important; left: -99999px !important; width: 0 !important; height: 0 !important; visibility: hidden !important; opacity: 0.0 !important; } }
-@media screen and (max-width: 839px) { .bot-nav ul { display: flex; flex-direction: column; align-items: center; margin: 5 auto; }
-  .social { float: none; } }
+@media screen and (max-width: 839px) { .social { display: flex; flex-direction: row; justify-content: center; margin-left: auto; margin-right: auto; gap: 2rem; margin-bottom: 1rem; }
+  .bot-nav { justify-content: center; margin-right: 0; /* remove the "basic layout spec" margins added */ }
+  .bot-nav ul { display: flex; flex-direction: column; align-items: center; margin: 5 auto; } }
 @media screen and (max-width: 840px) { .main-wrapper > *, .header-wrapper > *, .member-wrapper > *, .alt-member-wrapper > *, .footer-wrapper > * { margin: 5 0; } }
 /*
 site-wide reusable components styling
@@ -6852,6 +6862,11 @@ table tbody tr:nth-child(odd) { background-color: #98afc7; }
 
 #disclaimer p { min-width: 80%; }
 
+/* mobile responsive settings for disclaimer */
+@media screen and (max-width: 839px) { #disclaimer p { min-width: 0; }
+  #disclaimer a.disclaimerOK { margin: 0 0 0 1rem; }
+  #close-disclaimer { float: none; padding: 0; margin-right: 20px; }
+  #disclaimer { padding: 15px 20px; } }
 .sitemap h2 { color: #444444; margin-bottom: 10px; }
 .sitemap ul { margin: 10px 0; padding: 0; list-style: none; }
 
@@ -7250,9 +7265,6 @@ code .k { color: crimson; }
   .mobile-cell { display: none !important; } }
 @media only screen and (max-width: 420px) { .mobile-cell { display: table-cell; }
   .desktop-cell { display: none !important; } }
-@media only screen and (max-width: 600px) { .bot-nav { justify-content: center; }
-  .social { display: flex; justify-content: center; }
-  .social a { padding: 20px; } }
 @keyframes spinner { 0% { transform: translate3d(-50%, -50%, 0) rotate(0deg); }
   100% { transform: translate3d(-50%, -50%, 0) rotate(360deg); } }
 @keyframes inner-spinner { 0% { transform: translate3d(-50%, -50%, 0) rotate(0deg); }

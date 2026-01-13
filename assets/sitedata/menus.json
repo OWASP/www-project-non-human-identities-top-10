@@ -127,25 +127,45 @@
 			"title": "EVENTS",
 			"url": "/events/",
 			"items": [
-				{
-					"title": "OWASP Global AppSec USA",
-					"url": "https://owasp.glueup.com/event/owasp-2025-global-appsec-usa-washington-dc-131624/",
-					"opentab": "true"						
+				{								
+					"title": "OWASP Global AppSec EU 2026",
+					"url": "https://owasp.glueup.com/event/owasp-global-appsec-eu-2026-vienna-austria-162243/",
+					"opentab": "true"			
 				},
-				{									
-					"title": "OWASP AppSec Days Uruguay 2025",
-					"url": "https://owasp-uruguay.github.io/",
+				{					
+					"title": "So You Want to be an OWASP Speaker",
+					"url": "https://owasp.glueup.com/event/so-you-want-to-be-an-owasp-speaker-virtual-event-163522/",
 					"opentab": "true"
 				},
 				{					
-					"title": "German OWASP Day 2025",
-					"url": "https://god.owasp.de/2025/index.html",
+					"title": "OWASP 25th Anniversary Virtual Conference",
+					"url": "https://owasp.glueup.com/event/owasp-25th-anniversary-virtual-conference-164290/",
 					"opentab": "true"				
 				},
 				{					
-					"title": "OWASP BeNeLux 2025",
-					"url": "https://2025.owaspbenelux.eu/?utm_source=owasp-web&utm_medium=event-page&utm_campaign=none",
-					"opentab": "true"
+					"title": "OWASP London Training Days 2026",
+					"url": "https://owasp.glueup.com/event/london-owasp-training-days-2026-162538/",
+					"opentab": "true"				
+				},
+				{					
+					"title": "OWASP BASC 2026",
+					"url": "https://basconf.org/",
+					"opentab": "true"	
+				},
+				{					
+					"title": "OWASP SnowFROC 2026",
+					"url": "https://snowfroc.com/",
+					"opentab": "true"					
+				},
+				{					
+					"title": "OWASP AppSec Israel 2026",
+					"url": "https://appsecil.org/",
+					"opentab": "true"				
+				},
+				{					
+					"title": "OWASP Italy Day 2026",
+					"url": "https://owasp.org/www-chapter-italy/events/OWASPItalyDay2026-06-18",
+					"opentab": "true"					
 				},
 				{					
 					"title": "OWASP LASCON 2026",
@@ -245,6 +265,14 @@
 		}
 	]
 }
+
+
+
+
+
+
+
+
 
 
 
