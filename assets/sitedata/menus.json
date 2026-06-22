@@ -170,7 +170,12 @@
 				{					
 					"title": "OWASP AppSec Days India 2026",
 					"url": "https://india.appsecdays.org/",
-					"opentab": "true"					
+					"opentab": "true"	
+				},
+				{					
+					"title": "OWASP BASC 2027",
+					"url": "https://basconf.org/",
+					"opentab": "true"				
 				},
 				{					
 					"title": "Upcoming Chapter Events",
