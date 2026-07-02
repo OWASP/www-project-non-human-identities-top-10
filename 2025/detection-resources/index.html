@@ -953,6 +953,17 @@
 <td><em>local; no telemetry</em></td>
 <td><em>MIT; active</em></td>
 </tr>
+<tr>
+<td><a href="https://github.com/abhishek20c/gh-iga">gh-iga</a></td>
+<td>NHI1, NHI3, NHI5, NHI7</td>
+<td>GitHub Apps, SSH deploy keys, Actions secrets, Actions <code>GITHUB_TOKEN</code> (plus webhook integrations as a third-party surface)</td>
+<td>GitHub</td>
+<td><code>repo</code> + <code>read:org</code> + <code>admin:org</code>; read-only (single PAT)</td>
+<td>Over-permissioned &amp; org-wide apps, suspended apps; read-write &amp; stale deploy keys; unrotated Actions secrets; webhooks with no secret / insecure transport; read-write <code>GITHUB_TOKEN</code> default; Actions able to approve PRs</td>
+<td>Repos where the token lacks admin are silently skipped (their keys/secrets/webhooks/workflow settings won't appear); GitHub App inventory is org-only; staleness thresholds are heuristic (deploy keys 90d, secrets 365d by default)</td>
+<td>All local; no telemetry; secret values never read</td>
+<td>MIT; actively maintained</td>
+</tr>
 </tbody>
 </table>
 
