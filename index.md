@@ -45,7 +45,7 @@ When secrets are leaked —for instance, hard-coded into source code, stored in 
 
 Third-party non-human identities (NHIs) are extensively integrated into the development workflow, both through the use of integrated development environments (IDEs) and their extensions and also through the use of 3rd party SaaS.
 If a third-party extension is compromised—whether through a security vulnerability or a malicious update—it can be exploited to steal these credentials or misuse the granted permissions.
-[Read More >>]({{ site.baseurl }}/2025/2-secret-leakage/)
+[Read More >>]({{ site.baseurl }}/2025/3-vulnerable-third-party-nhi/)
 
 * [NHI4:2025 - Insecure Authentication]({{ site.baseurl }}/2025/4-insecure-authentication/)
 
